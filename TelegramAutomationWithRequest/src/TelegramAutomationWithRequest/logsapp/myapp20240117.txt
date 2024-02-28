@@ -1,0 +1,105 @@
+2024-01-17 08:17:02.074 +07:00 [ERR] Configuration system failed to initialize
+System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize
+ ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.RemoveConfigImpl(String configPath, BaseConfigurationRecord configRecord)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at TelegramAutomationWithRequest.Program.Main() in D:\working\ToolsQnibot\ToolsFarmingQnibot\TelegramAutomationWithRequest\TelegramAutomationWithRequest\src\TelegramAutomationWithRequest\Program.cs:line 46
+2024-01-17 08:17:05.563 +07:00 [ERR] Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+2024-01-17 08:20:12.522 +07:00 [ERR] Configuration system failed to initialize
+System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize
+ ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.RemoveConfigImpl(String configPath, BaseConfigurationRecord configRecord)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at TelegramAutomationWithRequest.Program.Main() in D:\working\ToolsQnibot\ToolsFarmingQnibot\TelegramAutomationWithRequest\TelegramAutomationWithRequest\src\TelegramAutomationWithRequest\Program.cs:line 46
+2024-01-17 08:20:14.733 +07:00 [ERR] Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+2024-01-17 08:20:39.089 +07:00 [ERR] Configuration system failed to initialize
+System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize
+ ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.RemoveConfigImpl(String configPath, BaseConfigurationRecord configRecord)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at TelegramAutomationWithRequest.Program.Main() in D:\working\ToolsQnibot\ToolsFarmingQnibot\TelegramAutomationWithRequest\TelegramAutomationWithRequest\src\TelegramAutomationWithRequest\Program.cs:line 46
+2024-01-17 08:20:41.452 +07:00 [ERR] Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+2024-01-17 08:21:05.472 +07:00 [ERR] Configuration system failed to initialize
+System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize
+ ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.RemoveConfigImpl(String configPath, BaseConfigurationRecord configRecord)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at TelegramAutomationWithRequest.Program.Main() in D:\working\ToolsQnibot\ToolsFarmingQnibot\TelegramAutomationWithRequest\TelegramAutomationWithRequest\src\TelegramAutomationWithRequest\Program.cs:line 46
+2024-01-17 08:21:07.300 +07:00 [ERR] Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+2024-01-17 08:21:34.251 +07:00 [ERR] Configuration system failed to initialize
+System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize
+ ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientConfigurationSystem.OnConfigRemoved(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.RemoveConfigImpl(String configPath, BaseConfigurationRecord configRecord)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at TelegramAutomationWithRequest.Program.Main() in D:\working\ToolsQnibot\ToolsFarmingQnibot\TelegramAutomationWithRequest\TelegramAutomationWithRequest\src\TelegramAutomationWithRequest\Program.cs:line 46
+2024-01-17 08:21:37.228 +07:00 [ERR] Unrecognized configuration section userSettings/YoutubeFarmLDPlayer.Properties.Settings. (C:\Users\admin\AppData\Local\Microsoft_Corporation\ef_StrongName_2btcjspja3p5vmxovicjje5hjevi4ebw\7.0.10.0\user.config line 4)
